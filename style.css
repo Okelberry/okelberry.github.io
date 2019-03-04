@@ -1,0 +1,55 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("okelberry.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup {
+  display: flex;
+  justify-content: flex-start;
+}
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+
+
+header.startup h1 {
+  font-size: 3rem;
+  color: gold;
+  font-family: sofia;
+}
+
+.btn {
+  color: purple;
+  font-weight: 1000;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 800px;
+}
+
+.btn-xl {
+  padding: -500px;
+}
+
+.btn-primary {
+  background-color: #white;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
